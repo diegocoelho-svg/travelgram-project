@@ -36,4 +36,15 @@ a:hover {
   color: var(--brand-color);
   text-decoration: underline;
 }
+
+.container {
+  /*conter a nivel de projeto, 32px nas laterais, alinhando ao meio*/
+  padding-inline: 32px; /*laterais*/
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
   
