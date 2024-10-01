@@ -9,7 +9,7 @@ nav ul {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
 
   padding-block: 8px; /*4 cima 4 baixo*/
 }
@@ -19,5 +19,11 @@ nav ul li:last-child img {
   width: 40px;
   height: 40px;
   object-fit: cover;
+  border-radius: 50%;
+}
+
+#profile {
+  max-width: 176px;
+  max-height: 176px;
   border-radius: 50%;
 }
